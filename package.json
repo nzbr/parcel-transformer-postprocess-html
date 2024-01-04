@@ -2,8 +2,8 @@
   "name": "@nzbr/parcel-transformer-postprocess-html",
   "version": "1.0.0",
   "private": true,
-  "source": "src/index.ts",
-  "main": "dist/index.js",
+  "source": "index.ts",
+  "main": "index.js",
   "scripts": {
     "prebuild": "rimraf ./dist",
     "build": "tsc -b",

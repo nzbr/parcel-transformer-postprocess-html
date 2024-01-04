@@ -1,13 +1,13 @@
 {
   "include": [
-    "src/**/*.ts"
+    "**/*.ts"
   ],
   "exclude": [
     "node_modules",
   ],
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "dist",
+    "outDir": ".",
     "experimentalDecorators": true,
     "isolatedModules": true,
     "target": "ES2022",
