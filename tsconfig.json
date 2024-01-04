@@ -1,0 +1,27 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "node16",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ES2021",
+      "DOM"
+    ],
+    "strict": true,
+    "types": ["node"]
+  }
+}
